@@ -1,3 +1,40 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --header-h: 70px;
+  --error-h: calc(100vh - var(--header-h) - 2.5rem);
+}
+
+html {
+  @apply scrollbar-hide;
+}
+
+h1 {
+  @apply text-5xl font-extrabold;
+}
+
+h2 {
+  @apply text-4xl font-bold;
+}
+
+h3 {
+  @apply text-3xl font-bold text-gray-900;
+}
+
+h4 {
+  @apply text-2xl font-semibold text-gray-900;
+}
+
+h5 {
+  @apply text-xl font-semibold text-gray-900;
+}
+
+h6 {
+  @apply text-lg font-semibold text-gray-900;
+}
+
+p {
+  @apply text-lg font-normal text-gray-700;
+}

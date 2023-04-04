@@ -1,0 +1,3 @@
+.button {
+  @apply p-3 border bg-orange-500  border-black font-bold transition hover:scale-90;
+}

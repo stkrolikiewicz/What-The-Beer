@@ -1,0 +1,10 @@
+.container {
+  @apply sticky top-0 h-[var(--header-h)] w-full z-50 flex items-center justify-between;
+}
+.container::after {
+  @apply fixed bg-purple-900 border-b border-black bg-opacity-80 backdrop-blur-md w-screen -z-50 top-0 left-0 content-[""] h-[var(--header-h)];
+}
+
+.title {
+  @apply text-orange-500 drop-shadow-[1.0px_1.0px_rgba(0,0,0,0.8)];
+}

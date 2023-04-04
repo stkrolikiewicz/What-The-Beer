@@ -1,0 +1,15 @@
+.container {
+  @apply flex flex-col items-center gap-5 justify-between w-full h-full;
+}
+
+.imageContainer {
+  @apply flex items-center justify-center h-[250px] object-cover;
+}
+
+.image {
+  @apply h-[250px] object-contain;
+}
+
+.info {
+  @apply flex flex-col items-center justify-between gap-3 w-full flex-1;
+}

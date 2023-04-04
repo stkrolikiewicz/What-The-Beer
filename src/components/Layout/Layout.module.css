@@ -1,0 +1,7 @@
+.container {
+  @apply w-screen mx-auto px-6 lg:px-8 max-w-5xl;
+}
+
+.progressBar {
+  @apply fixed top-[var(--header-h)] left-0 right-0 h-2 bg-fuchsia-950 bg-opacity-80 backdrop-blur-lg transform origin-left z-50;
+}

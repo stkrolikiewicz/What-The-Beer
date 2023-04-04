@@ -1,0 +1,7 @@
+.container {
+  @apply flex items-center justify-between w-full;
+}
+
+.pageIndex {
+  @apply underline underline-offset-4;
+}
